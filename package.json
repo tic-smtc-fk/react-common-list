@@ -1,0 +1,35 @@
+{
+  "name": "react-common-list",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "zbuild dev -c webpack.config.js",
+    "lint": "eslint src --ext .tsx,.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tic-smtc-fk/react-common-list.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tic-smtc-fk/react-common-list/issues"
+  },
+  "homepage": "https://github.com/tic-smtc-fk/react-common-list#readme",
+  "devDependencies": {
+    "@treynb/eslint-config-zlint": "^0.1.0",
+    "@treynb/zbuild": "^0.1.1",
+    "@types/qs": "^6.9.4",
+    "@types/react": "^16.9.46",
+    "@types/react-dom": "^16.9.8",
+    "@types/react-router-dom": "^5.1.5"
+  },
+  "dependencies": {
+    "antd": "^4.5.4",
+    "qs": "^6.9.4",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-router-dom": "^5.2.0"
+  }
+}
